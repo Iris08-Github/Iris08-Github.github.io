@@ -1,0 +1,275 @@
+
+
+   header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    }
+    
+    .skills-title {
+      width: 85%;
+      text-align: center;
+      margin-right: 40px;
+    }
+    
+    .header-text {
+      padding:5px ;
+      font-family:'Nunito Sans';
+      font-size: 20px;
+      
+
+    }
+
+    .bracket-s {
+      color:#aa8ac2;
+      font-weight: bolder;
+      padding: 6px; 
+      font-size: 25px;
+    }
+    
+    .circle-i{
+    border: black solid 1px;
+     font-size: 17px;
+     height: 20px;
+     width: 20px;
+     display: flex;
+     justify-content: center;
+     padding: 8px; 
+     border-radius: 50%;
+     text-decoration: none;
+     color: black;
+    }
+    
+    .hero {
+       padding-top: 20px;
+    }
+    
+    @media (max-width:950px){
+      .hero{
+        height: 100%;
+      }
+    }
+    
+    .skills-container{
+      display: flex;
+      flex-direction: column-reverse;
+      height: 90%;
+      align-items: center;
+      justify-content: space-around;
+      font-family:'Nunito Sans';
+      color: black;
+    }
+    
+    
+    @media (max-width: 950px){
+      .skills-container{
+        align-items: center;
+      }
+    }
+
+   
+    
+    .technical-skills{
+      display:flex; 
+      background-image: url("../Skills-Images/purple-paint-brush-stroke-6.png");
+      background-repeat: no-repeat;
+      background-position:/*100px -10px*/ 40% -50% ;
+      background-size: /*880px 380px*/ 97% 94%;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+    } 
+    
+    @media (max-width: 768px){
+      .technical-skills{
+      flex-direction: column;
+      background-image: url("../Skills-Images/purple-paint-brush-stroke-vertical.png");
+      background-size: 70% 110%;
+      background-position: 40% 10%;
+      align-items:center;
+      justify-content: center;
+    }
+    }
+
+    .box
+    {
+      position: relative;
+      width: 270px;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    } 
+
+    @media (max-width: 768px){
+      .box{
+        height: 300px;
+      }
+    }
+    
+   
+
+    .box .percent{
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+    
+    svg{
+      height: 200px;
+      width: 200px;
+    }
+
+    .box .percent svg circle{
+      width: 200px;
+      height: 200px;
+      fill: none;
+      stroke-width: 11 ;
+      stroke: #000;
+      transform: translate(5px, 5px);
+      stroke-dasharray: 570;
+      stroke-dashoffset: 570 ;
+      
+    }
+    
+    .box .percent svg circle:nth-child(1){
+      stroke-dashoffset:0;
+      stroke: /*#d6c8de*/white;
+    }
+
+    .box .percent svg circle:nth-child(2){
+      stroke-dashoffset: calc(570 - (570 * 80) / 100);
+      stroke: /*#775887*//*#d6c8de*/ #937eab;
+    }
+
+    .box-2 .percent-2 .svg-2 .css:nth-child(2){
+      stroke-dashoffset: calc(570 - (570 * 80) / 100);
+      stroke: /*#775887 #d6c8de*/ #937eab;
+    }
+
+    .box-3 .percent-3 .svg-3 .js:nth-child(2){
+      stroke-dashoffset: calc(570 - (570 * 10) / 100);
+      stroke: /*#775887 #d6c8de*/ #937eab;
+    }
+
+    .box .percent .number{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .box .percent .number h2{
+      font-size: 20px;
+    }
+
+    .box .percent .number h2 span{
+      font-size: 15px;
+    }
+
+    .box .htmltext{
+      padding: 10px 0 0;
+      color: white;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+
+   
+    .left-skills{
+     margin-top: 50px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    
+    @media (max-width:768px){
+      .left-skills{
+        border-right: #cbd1d4; 
+      }
+    }
+    
+    .s-title {
+      text-align: center;
+    
+    }
+ 
+    
+  
+    .skill-grid{
+     display: grid ;
+     grid-template-columns: auto auto auto ;
+     justify-content: center;
+     margin-top: 40px;
+     
+    }
+
+    @media (max-width:950px){
+      .skill-grid{
+        grid-template-columns: auto auto ;
+      }
+    } 
+
+    @media (max-width:768px){
+      .skill-grid{
+        grid-template-columns: auto;
+      }
+    }
+
+    .skill-text{
+      margin-top: 100px;
+      font-size: 15px;
+      letter-spacing: 2px;
+    }
+
+    .skill{
+      height: 360px;
+      width: 260px;
+      margin: 5px;
+      display: flex;
+      background-blend-mode: darken;
+      background-color: rgba(0,0,0,0.5);
+      justify-content: center;
+      background-size: 260px 360px ;
+      color:white;
+     }
+     
+     .magnify{
+      background-image: url("../Skills-Images/taneli-lahtinen-m6K4wGEQOq4-unsplash.jpg");
+     }
+
+     .tp{
+       background-image: url("../Skills-Images/pexels-fauxels-3184423.jpg");
+       
+       
+     }
+
+     .reliable{
+      background-image: url("../Skills-Images/pexels-riccardo-bresciani-303040.jpg")
+     }
+     
+     .patient {
+       background-image: url("../Skills-Images/saffu-E4kKGI4oGaU-unsplash.jpg");
+     }
+
+     .flexible{
+       background-image: url("../Skills-Images/kees-streefkerk-O3g3s-K3xKI-unsplash.jpg");
+       background-size: 320px 360px;
+     }
+     
+     .organized{
+       background-image: url("../Skills-Images/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg");
+       background-size: 330px 360px;
+     }
+     .xtra-space{
+      height: 60px;
+      background-color:#cbd1d4;
+    }

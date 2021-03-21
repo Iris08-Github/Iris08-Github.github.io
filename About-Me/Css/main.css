@@ -1,0 +1,149 @@
+html{
+ height: 105vh;
+}
+
+header{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 3px;
+position: relative;
+top: 0;
+width: 100%;
+height: 90px;
+background-color: white;
+
+}
+.title-con{
+  width: 85%;
+  text-align: center;
+}
+
+.title{
+  padding:5px ;
+  font-family:'Nunito Sans';
+  font-size: 20px;
+  
+  margin-bottom: 10px;
+  
+  
+}
+
+.brackets{
+ font-weight: bolder;
+ padding: 6px;
+ color:#4857a8;
+ font-size: 25px;
+}
+
+.circle-i{
+ border:  black solid 1px;
+ font-size: 17px;
+ height: 20px;
+ width: 20px;
+ display: flex;
+ justify-content: center;
+ padding: 8px; 
+ border-radius: 50%;
+ text-decoration: none;
+ color: black;
+ background-color: white;
+}
+
+
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  padding: 10px;
+  opacity: 1;
+  position: relative;
+  z-index: 3;
+  top: 50px;
+  
+}
+
+@media (max-width: 955px){
+    .hero{
+        flex-direction: column;
+        height: 100%;
+
+    }
+}
+
+.matcha-cup{
+ position: absolute;
+ height: 400px;
+ width: 400px;
+ 
+ margin-top:100px;
+ opacity: .2;
+}
+
+@media (max-width: 955px){
+.matcha-cup{
+  margin-top: 0px;
+  margin-right:380px;
+}
+}
+
+.about-me{
+  height: 80%;
+  width: 65%;
+  padding: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+  
+}
+
+@media (max-width:955px){
+    .about-me{
+        width: 80%;
+        height: 100%;
+        
+    }
+}
+
+
+
+.am-text{
+  font-family:'Nunito Sans';
+  margin-top: 20px;
+  padding: 15px;  
+  font-size: 18px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+
+   .iris-photo{
+    height: 430px;
+    width: 290px;
+    margin: 20px;
+    margin-right: 20px;
+    margin-top: 5% ;
+    position: relative;
+    z-index: 15;
+    border: white solid 5px;
+    
+}
+
+@media (max-width:955px){
+    .iris-photo{
+        margin-bottom: 10%;
+        margin-top: 20px;
+        
+    }
+}
+
+.extra-space{
+  height: 100px;
+  background-color:white;
+  margin-top: 10px;
+  border-radius: 5px ;
+}
